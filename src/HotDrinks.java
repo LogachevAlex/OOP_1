@@ -8,6 +8,11 @@ public class HotDrinks extends Drinks {
     }
 
     @Override
+    public void getInfo() {
+        System.out.println("Показываю полиморфизм, переписывая метод getInfo от абстрактного класса");
+    }
+
+    @Override
     public String getName() {
         return name;
     }
